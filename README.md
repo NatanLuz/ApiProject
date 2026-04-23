@@ -9,7 +9,7 @@ Projeto em PHP para consumir a API publica de bancos da BrasilAPI e exibir:
 
 ## Requisitos
 
-- PHP 8.0 ou superior
+- PHP 8.0 / superior
 - Extensão cURL habilitada
 
 ## Como executar localmente
