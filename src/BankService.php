@@ -2,11 +2,6 @@
 
 declare(strict_types=1);
 
-/**
- * Fetches banks from BrasilAPI.
- *
- * @return array<int, array<string, mixed>>
- */
 function fetchBanks(): array
 {
     $url = 'https://brasilapi.com.br/api/banks/v1';
@@ -45,10 +40,6 @@ function fetchBanks(): array
     return $data;
 }
 
-/**
- * @param array<int, array<string, mixed>> $banks
- * @return array<int, array<string, mixed>>
- */
 function filterBanks(array $banks, string $query): array
 {
     return array_values(array_filter($banks, static function (array $bank) use ($query): bool {
@@ -65,10 +56,6 @@ function filterBanks(array $banks, string $query): array
     }));
 }
 
-/**
- * @param array<int, array<string, mixed>> $banks
- * @return array<string, mixed>|null
- */
 function findBankByCode(array $banks, string $code): ?array
 {
     if ($code === '') {
