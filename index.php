@@ -157,7 +157,7 @@ header('Content-Type: text/html; charset=utf-8');
                 <?php endif; ?>
 
                 <p class="footer">
-                    Dica: use <a href="?format=json">?format=json</a> para retornar a API em JSON.
+                
                 </p>
             </div>
         </section>
