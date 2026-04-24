@@ -7,7 +7,7 @@ Projeto em PHP para consumir a API publica de bancos da BrasilAPI e exibir:
 - Pagina de detalhe por codigo
 - Resposta JSON para listagem e detalhe
 
-## Requisitos
+## Requisitos (Ferramentas utlizadas)
 
 - PHP 8.0 / superior
 - Extensão cURL habilitada
