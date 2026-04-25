@@ -1,6 +1,6 @@
-# Consulta de Bancos com PHP e BrasilAPI
+## Consulta de Bancos com PHP e BrasilAPI
 
-Projeto em PHP para consumir a API publica de bancos da BrasilAPI e exibir:
+## Projeto em PHP para consumir a API publica de bancos da BrasilAPI e exibir:
 
 - Listagem de bancos
 - Busca por nome, codigo ou ISPB
