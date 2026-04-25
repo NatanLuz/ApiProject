@@ -29,14 +29,14 @@ php -S 127.0.0.1:8000 -t .
 - JSON da listagem: http://127.0.0.1:8000/index.php?format=json
 - JSON do detalhe: http://127.0.0.1:8000/index.php?code=1&format=json
 
-## Estrutura
+## Estrutura do projeto 
 
 - index.php: Controller da pagina (entrada, roteamento e resposta).
 - src/BankService.php: Requisicao HTTP e regras de busca/detalhe.
 - src/View.php: Funcoes de escape e normalizacao de texto.
 - assets/styles.css: Estilos da interface.
 
-## Screenshot
+## Screenshot abaixo mostrando como o projeto ficou
 
 Visao da interface principal do projeto:
 
