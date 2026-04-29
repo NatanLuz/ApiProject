@@ -10,7 +10,7 @@
 ## Requisitos (Ferramentas utlizadas)
 
 - PHP 8.0 / superior
-- Extensão cURL habilitada
+- Com extensão cURL habilitada
 
 ## Como executar localmente
 
